@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<title>Panel de la organización · Voluntarios en Acción</title><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary-container":"#255f80","outline":"#74777f","on-tertiary":"#ffffff","on-surface-variant":"#44474e","on-primary":"#ffffff","secondary":"#2b6485","surface-variant":"#dbe4ed","surface-container":"#e6eff8","background":"#f6faff","error":"#ba1a1a","tertiary":"#480006","on-primary-container":"#879ec6","tertiary-container":"#70000f","error-container":"#ffdad6","surface-tint":"#485f84","on-surface":"#141d23","surface-bright":"#f6faff","on-primary-fixed-variant":"#30476a","surface-container-high":"#e0e9f2","on-tertiary-container":"#ff6f6c","on-tertiary-fixed-variant":"#930018","surface-container-lowest":"#ffffff","surface-container-low":"#ecf5fe","on-error":"#ffffff","outline-variant":"#c4c6cf","on-secondary":"#ffffff","primary-container":"#1d3557","inverse-on-surface":"#e9f2fb","inverse-surface":"#293138","surface-dim":"#d2dbe4","on-tertiary-fixed":"#410005","primary-fixed-dim":"#b0c7f1","secondary-fixed":"#c7e7ff","secondary-fixed-dim":"#98cdf2","on-secondary-fixed":"#001e2e","tertiary-fixed":"#ffdad7","inverse-primary":"#b0c7f1","on-error-container":"#93000a","surface-container-highest":"#dbe4ed","on-background":"#141d23","primary":"#031f41","on-secondary-fixed-variant":"#064c6b","secondary-container":"#a3d8fe","on-primary-fixed":"#001b3c","surface":"#f6faff","tertiary-fixed-dim":"#ffb3af","primary-fixed":"#d5e3ff"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-lg":"1.5rem","margin-mobile":"1rem",gutter:"1.5rem","gutter-mobile":"1rem",margin:"2rem","space-sm":"0.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem"},fontFamily:{"headline-md":["Inter"],"body-lg":["Inter"],"display-lg":["Inter"],"headline-sm":["Inter"],"display-lg-mobile":["Inter"],"headline-lg":["Inter"],"label-sm":["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"],"title-md":["Inter"],"label-lg":["Inter"],"label-md":["Inter"]},fontSize:{"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.005em",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"display-lg":["48px",{lineHeight:"56px",letterSpacing:"-0.02em",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"display-lg-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"700"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"0",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"title-md":["18px",{lineHeight:"24px",fontWeight:"500"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="h-16 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo Voluntariado Emergencias Chile" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wa_D4suBEFPHxMF4V9k5d-EOb_AoX6_a8OyruMK4fU4AgaXVgwGAN2a2WM1wkVzk8X_bxDSc1XPXMjVJalofDqxeZ09XbB250qyr5IUlioHgt70VRgb_l9uyzeiZcpGIdl10HKITmU9XmBh6GJYpPLT9wYDEMsulB7_BcwB8vqmK6KUJWwYtIQvtpkjiZkqdZp-EfRej0UkDhW1urCT0gbU6kZWeZPJ6NMI3HRZoIy9qNKoBAX0_61v368"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight hidden sm:inline-block">Voluntariado Emergencias Chile</span></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold rounded"><a class="px-space-sm py-space-xs rounded text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="explorar-emergencias" href="ExplorarEmergencia.html">Explorar emergencias</a><a class="px-space-sm py-space-xs rounded text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="mis-emergencias" href="EmergenciasVoluntariado.html">Mis emergencias</a><a class="px-space-sm py-space-xs rounded text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="panel-organizacion" href="PanelOrganizacion.html">Panel organización</a><a class="px-space-sm py-space-xs rounded text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-colors" data-path="publicar-emergencia" href="PublicarEmergencia.html">Publicar emergencia</a></nav><div class="flex items-center gap-space-md"><button aria-label="Alertas y Notificaciones de Emergencia" class="relative p-space-xs rounded-full hover:bg-surface-container-high transition-colors text-on-surface" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-0 right-0 inline-flex items-center justify-center px-1.5 py-0.5 text-[10px] font-bold leading-none text-on-error bg-error rounded-full">3</span></button><div class="flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsLIJEEYvD7tXbO30ul_uutxDbNEn-MEkm6lgNELOJ8NKVBRiNnTFKVTrSC1wPRzjQw6CZk_YAdG-qKDym_7546i5TrFWk_d9NAKDPHJqYMqEwbS0kwGOi1TszylW2-iIQpJ_QFwy4LqQRYHCdD6gJSDV2KwSHnVXQ7F7XDN4NYMjkETatwx7FmFIIfuQdthi_raxKvDgbrbMxcIcf1m9mEt0tjOBwcGBxIzUa61ARJcwFEF454MRWkA"/><div class="hidden xl:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface">Brigadista Activo</span><span class="font-label-sm text-label-sm text-secondary">Región Metropolitana</span></div></div></div></div></header><main class="w-full pt-16 bg-background flex-1"><div class="flex flex-col w-full">
+<!-- Status Banner & Identification Bar -->
+<section class="w-full bg-surface-container-low py-space-sm px-margin-mobile lg:px-margin shadow-sm">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="bg-surface-container-lowest p-2 rounded shadow-sm text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-headline-sm text-headline-sm text-primary">Fundación Desafío Valparaíso</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">shield_person</span>
+              Organización Verificada
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-space-sm text-xs">
+<span><strong>RUT:</strong> 65.123.456-7</span>
+<span class="text-outline-variant">•</span>
+<span><strong>Personería Jurídica:</strong> PJ-V-4821 (Al día)</span>
+<span class="text-outline-variant">•</span>
+<span class="text-secondary font-medium">Región de Valparaíso</span>
+</p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<a class="inline-flex items-center justify-center gap-2 px-space-md py-2.5 bg-error text-on-error font-label-lg text-label-lg rounded shadow hover:bg-tertiary-container transition-all" href="PublicarEmergencia.html">
+<span class="material-symbols-outlined text-[20px]">add_alert</span>
+          Publicar nueva emergencia
+        </a>
+</div>
+</div>
+</section>
+<!-- Main Operational Cockpit -->
+<section class="max-w-7xl mx-auto w-full px-margin-mobile lg:px-margin py-space-lg flex flex-col gap-space-lg">
+<!-- KPI Metric Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- KPI 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute top-0 left-0 h-1 w-full bg-secondary"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Despliegues en Curso</span>
+<span class="font-display-lg text-display-lg text-primary mt-1">2</span>
+</div>
+<div class="p-2.5 bg-secondary-container/40 text-secondary rounded-lg">
+<span class="material-symbols-outlined text-[24px]">crisis_alert</span>
+</div>
+</div>
+<div class="mt-4 flex items-center justify-between text-xs pt-2 text-on-surface-variant">
+<span class="flex items-center gap-1 font-label-sm text-label-sm text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+            Operaciones críticas
+          </span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">100% zonificadas</span>
+</div>
+</div>
+<!-- KPI 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute top-0 left-0 h-1 w-full bg-error"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Postulaciones</span>
+<span class="font-display-lg text-display-lg text-error mt-1">3 <span class="text-sm font-normal text-on-surface-variant">pendientes</span></span>
+</div>
+<div class="p-2.5 bg-error-container text-on-error-container rounded-lg">
+<span class="material-symbols-outlined text-[24px]">how_to_reg</span>
+</div>
+</div>
+<div class="mt-4 flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-error bg-error-container/60 px-2 py-0.5 rounded">Prioridad Alta</span>
+<a class="font-label-sm text-label-sm text-primary hover:underline" href="#modulo-postulaciones">Revisar ahora →</a>
+</div>
+</div>
+<!-- KPI 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute top-0 left-0 h-1 w-full bg-secondary"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">En Terreno Ahora</span>
+<span class="font-display-lg text-display-lg text-primary mt-1">1</span>
+</div>
+<div class="p-2.5 bg-surface-container-high text-primary rounded-lg">
+<span class="material-symbols-outlined text-[24px]">person_pin_circle</span>
+</div>
+</div>
+<div class="mt-4 flex flex-col pt-2 bg-surface-container-low p-2 rounded">
+<span class="font-label-sm text-label-sm text-on-surface flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[14px] text-secondary">minor_crash</span>
+            Matías Fuenzalida
+          </span>
+<span class="font-body-md text-body-md text-on-surface-variant text-[11px] leading-tight">Rol: Chofer Logístico (Camión 3/4)</span>
+</div>
+</div>
+<!-- KPI 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="absolute top-0 left-0 h-1 w-full bg-primary-container"></div>
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Horas Acumuladas</span>
+<span class="font-display-lg text-display-lg text-primary mt-1">18.5 <span class="text-sm font-normal text-on-surface-variant">hrs</span></span>
+</div>
+<div class="p-2.5 bg-primary-container/10 text-primary-container rounded-lg">
+<span class="material-symbols-outlined text-[24px]">history_toggle_off</span>
+</div>
+</div>
+<div class="mt-4 flex items-center justify-between text-xs pt-2">
+<span class="text-on-surface-variant font-body-md text-body-md text-xs">Corte actual del mes</span>
+<span class="inline-flex items-center text-xs text-primary font-bold">
+<span class="material-symbols-outlined text-[16px]">trending_up</span> +4.2 hrs hoy
+          </span>
+</div>
+</div>
+</div>
+<!-- Management Split Content -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Primary Column: Managed Emergencies (7 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">table_rows</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Emergencias Bajo Nuestra Gestión</h2>
+</div>
+<span class="px-2.5 py-1 bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm rounded-full">
+            3 Registradas
+          </span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Emergency Card 1: Incendio Forestal Cerro Cordillera -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col gap-space-sm relative overflow-hidden hover:shadow-md transition-all">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-error"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 pl-2">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-bold bg-error-container text-on-error-container">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+                    Crítico / Activa
+                  </span>
+<span class="text-on-surface-variant font-body-md text-body-md text-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                    Cerro Cordillera, Valparaíso
+                  </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Incendio Forestal Cerro Cordillera</h3>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm self-start">
+<span class="material-symbols-outlined text-[14px]">pending_actions</span>
+                1 postulación pendiente
+              </span>
+</div>
+<!-- Metrics & Progress -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm py-2 bg-surface-container-low px-space-sm rounded pl-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tareas activas</span>
+<span class="font-title-md text-title-md text-primary font-bold">3 operativas</span>
+</div>
+<div class="flex flex-col sm:col-span-2">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ocupación de Voluntarios</span>
+<span class="font-label-md text-label-md text-primary font-bold">19 / 25 cupos (76%)</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-2 rounded-full" style="width: 76%"></div>
+</div>
+</div>
+</div>
+<!-- Action footer -->
+<div class="flex items-center justify-between pt-2 border-t border-surface-container pl-2">
+<span class="text-xs text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+                Última actualización: hace 12 min
+              </span>
+<a class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded shadow-sm hover:bg-primary transition-colors" href="GestionEmergencia.html?id=emg_1">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+                Administrar emergencia
+              </a>
+</div>
+</div>
+<!-- Emergency Card 2: Habilitación cortafuegos Rodelillo -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col gap-space-sm relative overflow-hidden hover:shadow-md transition-all">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-secondary"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 pl-2">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-bold bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+                    Prevención / Activa
+                  </span>
+<span class="text-on-surface-variant font-body-md text-body-md text-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                    Sector Rodelillo, Valparaíso
+                  </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Habilitación cortafuegos Rodelillo</h3>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm self-start">
+<span class="material-symbols-outlined text-[14px]">pending_actions</span>
+                2 postulaciones pendientes
+              </span>
+</div>
+<!-- Metrics & Progress -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm py-2 bg-surface-container-low px-space-sm rounded pl-3">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tareas activas</span>
+<span class="font-title-md text-title-md text-primary font-bold">1 cuadrilla</span>
+</div>
+<div class="flex flex-col sm:col-span-2">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ocupación de Voluntarios</span>
+<span class="font-label-md text-label-md text-primary font-bold">12 / 20 cupos (60%)</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-2 rounded-full" style="width: 60%"></div>
+</div>
+</div>
+</div>
+<!-- Action footer -->
+<div class="flex items-center justify-between pt-2 border-t border-surface-container pl-2">
+<span class="text-xs text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+                Despliegue programado: Hoy 14:00
+              </span>
+<a class="inline-flex items-center gap-1.5 px-space-md py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded shadow-sm hover:bg-primary transition-colors" href="GestionEmergencia.html?id=emg_2">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+                Administrar
+              </a>
+</div>
+</div>
+<!-- Emergency Card 3: Centro Acopio Temporal (Borrador) -->
+<div class="bg-surface-container-lowest/80 rounded-xl shadow-sm p-space-md flex flex-col gap-space-sm relative overflow-hidden opacity-95 hover:opacity-100 transition-all">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-outline"></div>
+<div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 pl-2">
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-bold bg-surface-container-high text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">edit_note</span>
+                    Borrador Privado
+                  </span>
+<span class="text-on-surface-variant font-body-md text-body-md text-xs flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span>
+                    Gimnasio Municipal, Viña del Mar
+                  </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Centro Acopio Temporal</h3>
+</div>
+<span class="text-xs text-on-surface-variant italic self-start bg-surface-container px-2 py-0.5 rounded">
+                Sin publicar en la red
+              </span>
+</div>
+<!-- Draft details -->
+<div class="py-2 bg-surface-container-low px-space-sm rounded pl-3 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="font-body-md text-body-md text-on-surface-variant text-xs">
+<strong>2 tareas</strong> configuradas (Clasificación de víveres / Paletizado)
+                </span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">0 cupos solicitados</span>
+</div>
+<!-- Action footer -->
+<div class="flex items-center justify-between pt-2 border-t border-surface-container pl-2">
+<span class="text-xs text-on-surface-variant">Creado ayer por Coordinador Logístico</span>
+<button class="inline-flex items-center gap-1.5 px-space-md py-2 bg-surface-container-highest text-on-surface font-label-md text-label-md rounded hover:bg-surface-container-high transition-colors" type="button" onclick="location.href='PublicarEmergencia.html'">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+                Editar borrador
+              </button>
+</div>
+</div>
+</div>
+<!-- Terreno Map Preview Integration -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mt-space-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">explore</span>
+<span class="font-title-md text-title-md text-primary font-bold">Puntos Operativos Activos</span>
+</div>
+<span class="text-xs text-on-surface-variant">Valparaíso Centro & Cordillera</span>
+</div>
+<div class="w-full h-48 bg-cover bg-center rounded-lg relative overflow-hidden shadow-inner flex items-end p-space-sm" data-location="Valparaíso, Chile" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAuBUXDCrh3w8TMt8mkHmE2d_48TRF_S6sw3kdtUeTs2gi5Eq3wio-gtRtINiZsucwiW1TqPhVxYu7S-QYQ5NQHYUvxSzDZc03s64f9FHSwxAr1hZMj8T6aaMloyOZGD5jgMlpSMBl-feoU9GV3E1ABNRinQveVnRLNegnVtHo84HH-vgxEkWvLyAqEU2ZH6dVESi5Ic3Wknt5UV2yaBZ0ck4Tsvjg46C5SKqK5lDe06ZJO2mfRuejgdg')">
+<div class="bg-surface/90 backdrop-blur-sm p-2 rounded text-xs text-on-surface flex items-center gap-3 shadow">
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-error"></span> 1 Foco Activo</span>
+<span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span> 1 Cortafuegos</span>
+<span class="flex items-center gap-1 font-bold text-primary"><span class="material-symbols-outlined text-[14px]">local_shipping</span> Móvil en ruta (131-B)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Secondary Column: Pending Candidates & Direct Review (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md" id="modulo-postulaciones">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-error text-[22px]">assignment_ind</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Postulantes Recientes</h2>
+</div>
+<span class="bg-error text-on-error font-label-sm text-label-sm px-2 py-0.5 rounded-full">
+            3 pendientes
+          </span>
+</div>
+<!-- Candidates Container -->
+<div class="flex flex-col gap-space-sm">
+<!-- Candidate 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-sm flex flex-col gap-2 relative border-l-4 border-secondary" id="candidate-card-1">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait of Rodrigo Morales, a mid-30s certified emergency volunteer from Viña del Mar wearing outdoor gear against high-contrast natural Chilean sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWs4h1s30-0d8bRLNtuygcf85P1hJYT35njCZDmd-yTvmoK2ducDdl-c4lP-XDweW1TRcfEsVxQM8sEs9cYpke36uQwQMZSUde7K-XBjY-gFLH7D2xwO5y3EiiE6FuVlPsZ3VDnpQvLQqKFxBDY54Kiosg4MMElzWuWslkhdgI26zfJlIm-1-0G_eOW1tjCVwsMK98ixsr31quXR46YfewwN7l8oZcdY83dDiMBk9y0oYj0m8HOg1h5w"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface leading-tight">Rodrigo Morales</span>
+<span class="text-xs text-secondary font-medium">Paramédico / Primeros Auxilios</span>
+</div>
+</div>
+<span class="text-[11px] font-mono text-outline">Hace 25m</span>
+</div>
+<div class="bg-surface-container-low p-2 rounded text-xs flex flex-col gap-1 text-on-surface-variant">
+<p><strong>Destino:</strong> Incendio Cerro Cordillera</p>
+<p><strong>Certificación:</strong> RCP vigente + Carnet SNS</p>
+</div>
+<!-- Direct Actions -->
+<div class="grid grid-cols-2 gap-2 mt-1">
+<button class="w-full py-1.5 px-2 bg-secondary text-on-secondary rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-secondary/90 transition-colors" onclick="handleAccept(1)" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                Aceptar
+              </button>
+<button class="w-full py-1.5 px-2 bg-error-container text-on-error-container rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-error hover:text-on-error transition-colors" onclick="openRejectModal('Rodrigo Morales', 1)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+                Rechazar
+              </button>
+</div>
+</div>
+<!-- Candidate 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-sm flex flex-col gap-2 relative border-l-4 border-secondary" id="candidate-card-2">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait of Camila Santis, young Chilean civic response volunteer with safety helmet outdoors, crisp daylight shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsj9XXOWwSS_B5WmuYbrXXFOjlmX5wNqSTeqJObMePRlNehhfU4MX_pd6GVt4yJeahgl1VfMUPsPCld8Ycu7h7HQFwK6L_DZWSKmtPG1991_aQgS9H9-Yz9rulV40LhGDUBI-EO0Fg4XUw2skWcE0XqM9rZcP0IADyTmB-ixIwdVkjxEIHP3KdcjHYaquY4FJr9sEenIHpkzd2wVN3QHPyC4QWQu_yi0b0lvnTWJIOoGoStGkMHvTGlw"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface leading-tight">Camila Santis</span>
+<span class="text-xs text-secondary font-medium">Cuadrilla / Remoción Escombros</span>
+</div>
+</div>
+<span class="text-[11px] font-mono text-outline">Hace 1h</span>
+</div>
+<div class="bg-surface-container-low p-2 rounded text-xs flex flex-col gap-1 text-on-surface-variant">
+<p><strong>Destino:</strong> Cortafuegos Rodelillo</p>
+<p><strong>Disponibilidad:</strong> Tarde completa (14:00 - 20:00)</p>
+</div>
+<!-- Direct Actions -->
+<div class="grid grid-cols-2 gap-2 mt-1">
+<button class="w-full py-1.5 px-2 bg-secondary text-on-secondary rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-secondary/90 transition-colors" onclick="handleAccept(2)" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                Aceptar
+              </button>
+<button class="w-full py-1.5 px-2 bg-error-container text-on-error-container rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-error hover:text-on-error transition-colors" onclick="openRejectModal('Camila Santis', 2)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+                Rechazar
+              </button>
+</div>
+</div>
+<!-- Candidate 3 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-sm flex flex-col gap-2 relative border-l-4 border-secondary" id="candidate-card-3">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Headshot of Esteban Vera, Chilean logistic volunteer in high visibility reflective vest smiling outdoors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBL6j7yoHHiV9DCzaUTVHt4SDc_9iEA00Dm8mNuTSCujMjID5hE2ZsUD54ircesFmr4vzvTNLzKq53C1H75lqKEHUzuch0Q6psb01jJTeWDBMuUwrxLuS93kyyNapDj-up9my3NKT8EaB9og11nEHikdacbGbQP8xe1PnO-sk2RSyRNm2Xem5uifgXux2QtPnYlAnMskPFU56cn5X08oYQSwBQC-K6PPrlQs1qRjvNalDBy1hzFGmCvQ"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface leading-tight">Esteban Vera</span>
+<span class="text-xs text-secondary font-medium">Conductor Clase B / Transporte</span>
+</div>
+</div>
+<span class="text-[11px] font-mono text-outline">Hace 2h</span>
+</div>
+<div class="bg-surface-container-low p-2 rounded text-xs flex flex-col gap-1 text-on-surface-variant">
+<p><strong>Destino:</strong> Cortafuegos Rodelillo</p>
+<p><strong>Vehículo propio:</strong> Sí (Camioneta 4x4)</p>
+</div>
+<!-- Direct Actions -->
+<div class="grid grid-cols-2 gap-2 mt-1">
+<button class="w-full py-1.5 px-2 bg-secondary text-on-secondary rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-secondary/90 transition-colors" onclick="handleAccept(3)" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                Aceptar
+              </button>
+<button class="w-full py-1.5 px-2 bg-error-container text-on-error-container rounded font-label-md text-label-md flex items-center justify-center gap-1 hover:bg-error hover:text-on-error transition-colors" onclick="openRejectModal('Esteban Vera', 3)" type="button">
+<span class="material-symbols-outlined text-[16px]">cancel</span>
+                Rechazar
+              </button>
+</div>
+</div>
+</div>
+<!-- Quick Log Action & Support -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-primary font-bold">Protocolo de Asignación Táctica</span>
+<p class="font-body-md text-body-md text-xs text-on-surface-variant">Al aceptar un voluntario, el sistema envía automáticamente su acreditación digital con código QR de acceso a terreno y hoja de seguro de accidentes.</p>
+<a class="font-label-sm text-label-sm text-secondary hover:underline flex items-center gap-1 mt-1" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+            Descargar nómina de cuadrillas consolidada (PDF)
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Modal Rechazar Postulación (Accessible & Operative) -->
+<div class="fixed inset-0 z-50 hidden bg-primary/60 backdrop-blur-sm flex items-center justify-center p-4" id="modal-rechazar">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl shadow-2xl p-space-lg flex flex-col gap-space-md animate-in fade-in zoom-in-95 duration-150">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-2 text-error">
+<span class="material-symbols-outlined text-[28px]">warning</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Rechazar Postulación</h3>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-full hover:bg-surface-container" onclick="closeRejectModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        Estás desestimando la postulación de <span class="font-bold text-primary" id="modal-volunteer-name">Voluntario</span>. Por normativa ética de SENAPRED y la Red Cívica, debes especificar la razón operativa:
+      </p>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface" for="reject-reason">Motivo de rechazo de terreno</label>
+<select class="w-full h-11 px-3 bg-surface-container-low border border-outline-variant rounded font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="reject-reason">
+<option value="cupos_llenos">Cupos completados para la función requerida</option>
+<option value="perfil_incompatible">No cuenta con el equipamiento de protección personal (EPP)</option>
+<option value="sin_traslado">Sin factibilidad técnica de traslado al punto de encuentro</option>
+<option value="experiencia_requerida">La tarea exige certificación técnica previa no acreditada</option>
+<option value="otro">Otro motivo justificado</option>
+</select>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface" for="reject-comment">Mensaje personalizado al voluntario (opcional)</label>
+<textarea class="w-full p-3 bg-surface-container-low border border-outline-variant rounded font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary" id="reject-comment" placeholder="Ej: Estimado/a, hemos completado la cuadrilla de primeros auxilios. Te invitamos a postular al centro de acopio..." rows="3"></textarea>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-2">
+<button class="px-space-md py-2 text-on-surface font-label-md text-label-md hover:bg-surface-container rounded transition-colors" onclick="closeRejectModal()" type="button">
+          Cancelar
+        </button>
+<button class="px-space-md py-2 bg-error text-on-error font-label-md text-label-md rounded shadow hover:bg-tertiary-container transition-colors flex items-center gap-1.5" onclick="confirmReject()" type="button">
+<span class="material-symbols-outlined text-[18px]">block</span>
+          Confirmar y Notificar
+        </button>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-6 right-6 z-50 hidden bg-primary text-on-primary px-4 py-3 rounded-lg shadow-xl flex items-center gap-2 border-l-4 border-secondary transition-all" id="toast-feedback">
+<span class="material-symbols-outlined text-secondary" id="toast-icon">check_circle</span>
+<span class="font-body-md text-body-md" id="toast-msg">Acción realizada correctamente</span>
+</div>
+<!-- Micro-interactions Script -->
+<script>
+    let activeRejectId = null;
+
+    function showToast(message, isError = false) {
+      const toast = document.getElementById('toast-feedback');
+      const toastMsg = document.getElementById('toast-msg');
+      const toastIcon = document.getElementById('toast-icon');
+      
+      toastMsg.textContent = message;
+      toastIcon.textContent = isError ? 'info' : 'check_circle';
+      toast.classList.remove('hidden');
+      
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3500);
+    }
+
+    function handleAccept(candidateId) {
+      const card = document.getElementById('candidate-card-' + candidateId);
+      if (card) {
+        card.style.transition = 'all 0.3s ease';
+        card.style.opacity = '0.4';
+        card.style.pointerEvents = 'none';
+        
+        const badge = document.createElement('div');
+        badge.className = 'absolute inset-0 bg-secondary/15 backdrop-blur-[1px] flex items-center justify-center rounded-xl';
+        badge.innerHTML = '<span class="bg-secondary text-on-secondary px-3 py-1.5 rounded-full font-label-md flex items-center gap-1 shadow"><span class="material-symbols-outlined text-[18px]">verified</span> Voluntario Asignado</span>';
+        card.appendChild(badge);
+        
+        showToast('Voluntario aceptado. Se despachó credencial QR a su móvil.');
+      }
+    }
+
+    function openRejectModal(volunteerName, candidateId) {
+      activeRejectId = candidateId;
+      document.getElementById('modal-volunteer-name').textContent = volunteerName;
+      document.getElementById('modal-rechazar').classList.remove('hidden');
+    }
+
+    function closeRejectModal() {
+      activeRejectId = null;
+      document.getElementById('modal-rechazar').classList.add('hidden');
+    }
+
+    function confirmReject() {
+      if (activeRejectId) {
+        const card = document.getElementById('candidate-card-' + activeRejectId);
+        if (card) {
+          card.style.transition = 'all 0.3s ease';
+          card.style.transform = 'translateX(20px)';
+          card.style.opacity = '0';
+          setTimeout(() => {
+            card.remove();
+          }, 300);
+        }
+        closeRejectModal();
+        showToast('Postulación desestimada de la cuadrilla táctica.', true);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl shadow-[0_-1px_6px_rgba(0,0,0,0.03)]"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-lg flex flex-col gap-space-lg"><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg items-start"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary">shield</span><span class="font-headline-sm text-headline-sm text-primary">Red Nacional Cívica</span></div><p class="font-body-md text-body-md text-on-surface-variant">Coordinación comunitaria y canalización ciudadana ante catástrofes naturales y eventos de socorro en territorio chileno.</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Líneas Directas de Emergencia</span><ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface"><li class="flex items-center justify-between bg-surface-container-lowest px-space-sm py-space-xs rounded"><span class="font-label-md text-label-md text-on-surface-variant">Ambulancia (SAMU)</span><a class="font-headline-sm text-headline-sm text-error font-bold hover:underline" href="tel:131">131</a></li><li class="flex items-center justify-between bg-surface-container-lowest px-space-sm py-space-xs rounded"><span class="font-label-md text-label-md text-on-surface-variant">Bomberos de Chile</span><a class="font-headline-sm text-headline-sm text-error font-bold hover:underline" href="tel:132">132</a></li><li class="flex items-center justify-between bg-surface-container-lowest px-space-sm py-space-xs rounded"><span class="font-label-md text-label-md text-on-surface-variant">Carabineros de Chile</span><a class="font-headline-sm text-headline-sm text-primary font-bold hover:underline" href="tel:133">133</a></li></ul></div><div class="flex flex-col gap-space-xs"><span class="font-label-lg text-label-lg text-primary uppercase tracking-wider">Sello Académico Institucional</span><div class="bg-surface-container-lowest p-space-sm rounded flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface font-semibold">Iniciativa de Extensión Universitaria</span><p class="font-body-md text-body-md text-on-surface-variant">Proyecto interdisciplinario para la gestión táctica de desastres, interoperabilidad comunitaria y fortalecimiento del voluntariado local en Chile.</p></div></div></div><div class="pt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><p>© 2025 Plataforma Cívica de Emergencias Chile. Licencia de Cooperación Abierta.</p><div class="flex gap-space-md"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>Protocolo de Campo Seguro</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">public</span>Acceso Universal WCAG 2.1 AA</span></div></div></div></footer><script src="js/navegacion.js"></script>
+</body></html>
